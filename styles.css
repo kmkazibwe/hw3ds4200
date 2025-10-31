@@ -1,47 +1,53 @@
 body {
   background-color: #F8C8C8;
   color: #4D1F1F;
-  font-family: "Times New Roman", Times, serif;
-  line-height: 1.6;
-  margin: 40px auto;
-  padding: 30px;
-  max-width: 700px;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(77,31,31,0.08);
+  font-family: "Georgia", serif;
+  line-height: 1.8;
+  margin: 30px auto;
+  padding: 40px;
+  max-width: 720px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(77,31,31,0.1);
 }
 
 h1, h2, h3 {
   color: #7B1F1F;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Georgia", serif;
+  margin-bottom: 16px;
 }
 
 .homepage-image {
   width: 100%;
-  max-width: 300px;
+  max-width: 400px;
   display: block;
-  margin: 22px auto;
+  margin: 24px auto;
+  border-radius: 8px;
 }
 
 nav {
   text-align: center;
-  margin-bottom: 30px;
-  padding: 20px 0;
+  margin-bottom: 35px;
+  padding: 25px 0;
   background-color: #F6DADA;
+  border-radius: 8px;
 }
 
 nav a {
-  margin: 0 10px;
+  margin: 0 12px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #7B1F1F;
 }
 
 nav button {
   background-color: #E27D7D;
   color: #fff;
   border: none;
-  border-radius: 4px;
-  padding: 10px 20px;
+  border-radius: 6px;
+  padding: 12px 24px;
   cursor: pointer;
   transition: background 0.2s;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 nav button:hover {
@@ -50,9 +56,9 @@ nav button:hover {
 
 .left-image {
   float: left;
-  margin-right: 200px;
-  margin-bottom: 15px;
-  max-width: 300px;
-  width: 20%;
-  border-radius: 6px;
+  margin-right: 220px;
+  margin-bottom: 18px;
+  max-width: 400px;
+  width: 25%;
+  border-radius: 8px;
 }
